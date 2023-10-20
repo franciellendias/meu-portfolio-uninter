@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* Define estilos para todos os elementos (*) na página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #dfa7b0 16.62%, #bd4185 85.61%);
+  }
+  
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+  }
+  
+  .cabecalho-imagem {
+    height: 120px;
+    border-radius: 50%;
+    width: 120px;
+           
+  }
+  
+  .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px
+  }
+  
+  .conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+    text-align: center;
+  }
+  
+  .conteudo-principal {
+    margin: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .conteudo-principal-escrito-titulo {
+    margin: 45px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 400;
+    font-size: 90px;
+    color: #FFF2E7;
+    text-align: center;
+  }
+  
+  .conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fffefd;
+    text-align: center;
+  }
+
+  .conteudo-principal-imagem {
+    margin: 40px;
+    height: 430px;
+  }
+
+  /* Define o estilo do botão "voltar" de cada página */
+  button {
+    margin: 40px;
+    font-family: 'Sarala', sans-serif;
+    background-color: #ff3399; /* Cor de fundo rosa escuro */
+    color: #fff; /* Cor do texto branco */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Define o estilo do botão quando passa o mouse por cima */
+button:hover {
+    background-color: #bd4185; /* Cor de fundo mais escura no hover */
+}
+
+/* Define o estilo do formulário de contato*/
+form {
+  margin: 48px;
+  background-color: #bd4185;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid #FFF2E7;
+  text-align: center;
+}
